@@ -26,7 +26,6 @@ class MarketOverview extends PureComponent {
                         {this.props.data.map(item => {
                             const { quote: { USD: { market_cap, volume_24h, percent_change_24h, price } }, name, cmc_rank,
                             id } = item;
-                            console.log(item);
                             return (
                                 <TableRow key={id}>
                                     <TableCell>{cmc_rank}</TableCell>

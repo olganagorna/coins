@@ -27,7 +27,9 @@ class HomePage extends PureComponent {
         getCoinsInfo(this.state.limit)
             .then(res => this.setState({ data: res.data.data, isLoading: false }))
             .catch(err => {
-                this.setState({ isLoading: false }, () => console.log(err))
+                this.setState({ isLoading: false }, () => {
+                    // handle error
+                })
             });
     }
 
@@ -36,7 +38,7 @@ class HomePage extends PureComponent {
             ...prevState,
             limit: value,
         }), this.callAPI);
-    }
+    };
 
     render() {
         return (
