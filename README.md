@@ -71,4 +71,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### TODO:
 Review structure: move logo.svg to images folder<br />
 API: key to constants<br />
-Add unit tests
+Add unit tests<br />
+Check API endpoint
