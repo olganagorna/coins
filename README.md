@@ -69,6 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ### TODO:
-Review structure: move logo.svg to images folder
-API: key to constants
+Review structure: move logo.svg to images folder<br />
+API: key to constants<br />
 Add unit tests
